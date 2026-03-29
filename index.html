@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jumia</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+    <link
+      rel="shortcut icon"
+      href="images\jumia logo.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="login-wrapper">
+      <img src="images\jumia logo.png" alt="Jumia-top-logo" />
+      <h2>Welcome to my Jumia Clone Webpage</h2>
+      <h3>
+        Type your e-mail or phone number to log in or create a Jumia account.
+      </h3>
+      <form onsubmit="saveEmail(event)">
+        <input
+          type="email"
+          name="user-contact"
+          id="user-contact"
+          placeholder="Email or Mobile Number*"
+          required
+        />
+        <button type="submit">Continue</button>
+      </form>
+      <div class="terms-and-condition">
+        <h4>By continuing you agree to Jumia’s</h4>
+        <h5><a href="index.html">Terms and Conditions</a></h5>
+        <h5><a href="index.html">Privacy Policy</a></h5>
+      </div>
+      <button class="login-facebook">Log in with Facebook</button>
+      <button class="login-google">Login with Google</button>
+      <div class="support">
+        <h3>
+          For further support, you may visit the Help Center or contact our
+          customer service team.
+        </h3>
+      </div>
+      <div class="bottom-logo">
+        <img src="images/myjumia-bottom-logo.png" alt="" />
+      </div>
+    </div>
+  </body>
+</html>
