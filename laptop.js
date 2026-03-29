@@ -194,3 +194,13 @@ fetch('products.json')
   })
   .catch(err => console.error('Error loading products:', err));
 
+
+  const userDisplay = document.querySelector('#user-display');
+const savedEmail = localStorage.getItem('userEmail');
+
+if (savedEmail) {
+    // This takes the part before the "@" to make it look like a username
+    const username = savedEmail.split('@')[0];
+    userDisplay.textContent = `Hi, ${username}`;
+}
+
