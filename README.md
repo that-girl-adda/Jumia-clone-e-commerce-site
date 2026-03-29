@@ -17,3 +17,12 @@ A responsive e-commerce landing page built to practice dynamic product rendering
 
 ## 📸 Preview
 (You can add a screenshot of your site here later!)
+
+
+## 📝 Project Flow & Usage
+This clone mimics the multi-step authentication process of a real e-commerce platform:
+
+1. **Email Step:** Enter any email address to proceed.
+2. **Password Step:** Enter any characters to access the main store.
+   
+> **Note:** Since this is currently a **Frontend-only** project, there is no backend validation. The login forms will accept any input to allow you to explore the dynamic product pages and shopping cart functionality.
