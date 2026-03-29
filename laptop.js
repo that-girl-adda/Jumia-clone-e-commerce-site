@@ -201,6 +201,6 @@ const savedEmail = localStorage.getItem('userEmail');
 if (savedEmail) {
     // This takes the part before the "@" to make it look like a username
     const username = savedEmail.split('@')[0];
-    userDisplay.textContent = `Hi, ${username}`;
+    userDisplay.textContent = `Hi, ${username}  |`;
 }
 
